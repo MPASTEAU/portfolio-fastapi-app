@@ -47,10 +47,6 @@ To build and run the Docker image for this application, follow these steps:
    docker run -d -p 8000:8000 portfolio-fastapi-app:v1.0.0
    ```
 
-## CI/CD with GitHub Actions
-
-This project uses GitHub Actions for Continuous Integration and Continuous Deployment. The configuration files can be found in the `.github/workflows` directory. The CI/CD pipeline includes automated testing and deployment.
-
 ## Usage
 
 Once the application is running, you can access the API documentation at:
