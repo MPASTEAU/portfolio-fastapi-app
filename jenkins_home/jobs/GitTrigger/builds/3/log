@@ -1,0 +1,22 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GitTrigger
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/GitTrigger/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/MPASTEAU/fastapi-app # timeout=10
+Fetching upstream changes from https://github.com/MPASTEAU/fastapi-app
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/MPASTEAU/fastapi-app +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/jenkins^{commit} # timeout=10
+Checking out Revision 128d67c710ba5a6847671854df12a669caf4af21 (refs/remotes/origin/jenkins)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 128d67c710ba5a6847671854df12a669caf4af21 # timeout=10
+Commit message: "[TEST] - Random commit for Jenkins."
+ > git rev-list --no-walk 2ef8d3fefa9d7c98d26c461f56e2e4550090f459 # timeout=10
+[GitTrigger] $ /bin/sh -xe /tmp/jenkins7806217063333784429.sh
++ echo ls
+ls
+Finished: SUCCESS

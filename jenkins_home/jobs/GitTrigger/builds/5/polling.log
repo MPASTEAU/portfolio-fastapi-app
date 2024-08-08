@@ -1,0 +1,12 @@
+Started on Aug 8, 2024, 2:24:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 94a32d880256abb2558050e4b6beb91761754069 (refs/remotes/origin/jenkins)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git ls-remote -h -- https://github.com/MPASTEAU/fastapi-app # timeout=10
+Found 3 remote heads on https://github.com/MPASTEAU/fastapi-app
+[poll] Latest remote head revision on refs/heads/jenkins is: e23f207fe81c20db8c745170338c1259b32c8d03
+Done. Took 0.38 sec
+Changes found

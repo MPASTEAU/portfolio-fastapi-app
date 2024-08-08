@@ -1,0 +1,22 @@
+Started by user [8mha:////4JaEoILjHu985dmnM/yohVDwZGudUJSrE5VSi4BgCVPuAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9tMTiksSCTABDHSmIwgAAAA==[0mfastapi
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GitTrigger
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/MPASTEAU/fastapi-app
+ > git init /var/jenkins_home/workspace/GitTrigger # timeout=10
+Fetching upstream changes from https://github.com/MPASTEAU/fastapi-app
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/MPASTEAU/fastapi-app +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/MPASTEAU/fastapi-app # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision c2a6771f87103ba58d455ec53f205fcf7b8a5870 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c2a6771f87103ba58d455ec53f205fcf7b8a5870 # timeout=10
+Commit message: "[DOC] - Add MIT License to README.md"
+First time build. Skipping changelog.
+Finished: SUCCESS

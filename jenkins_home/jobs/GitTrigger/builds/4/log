@@ -1,0 +1,28 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GitTrigger
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/GitTrigger/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/MPASTEAU/fastapi-app # timeout=10
+Fetching upstream changes from https://github.com/MPASTEAU/fastapi-app
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/MPASTEAU/fastapi-app +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/jenkins^{commit} # timeout=10
+Checking out Revision 94a32d880256abb2558050e4b6beb91761754069 (refs/remotes/origin/jenkins)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 94a32d880256abb2558050e4b6beb91761754069 # timeout=10
+Commit message: "[TEST] - Random commit for Jenkins."
+ > git rev-list --no-walk 128d67c710ba5a6847671854df12a669caf4af21 # timeout=10
+[GitTrigger] $ /bin/sh -xe /tmp/jenkins1861482950881541816.sh
++ ls
+Dockerfile
+README.md
+app
+docker-compose.yml
+jenkins_home
+requirements.txt
+tests
+Finished: SUCCESS

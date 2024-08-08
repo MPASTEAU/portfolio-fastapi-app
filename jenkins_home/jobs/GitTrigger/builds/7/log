@@ -1,0 +1,23 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GitTrigger
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/GitTrigger/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/MPASTEAU/fastapi-app # timeout=10
+Fetching upstream changes from https://github.com/MPASTEAU/fastapi-app
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/MPASTEAU/fastapi-app +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/jenkins^{commit} # timeout=10
+Checking out Revision 810143aefdfea00b1e0f588bf714049d727fc01b (refs/remotes/origin/jenkins)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 810143aefdfea00b1e0f588bf714049d727fc01b # timeout=10
+Commit message: "[TEST] - Random commit for Jenkins."
+ > git rev-list --no-walk 0dc42945ae6e696152bf9dfd2c6629df9cbe827d # timeout=10
+[GitTrigger] $ /bin/sh -xe /tmp/jenkins10823163415209689607.sh
++ sh docker --version
+sh: 0: cannot open docker --version: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
