@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/time")
 def get_time():
-    return {"time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+    return {"time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "timezone": "UTC"}
