@@ -1,3 +1,4 @@
 Dockerfile
 README.md
 .pre-commit-config.yaml
+docker-compose.yml
