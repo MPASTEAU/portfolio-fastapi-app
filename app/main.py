@@ -10,4 +10,4 @@ def get_time():
 
 @app.get("/hello")
 def get_time():
-    return {"hello"}
+    return {"toto"}
